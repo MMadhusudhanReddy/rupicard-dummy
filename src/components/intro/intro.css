@@ -1,0 +1,115 @@
+.intro {
+  height: 100vh;
+  width: 100%;
+}
+
+.intro-content {
+  height: 100vh;
+  margin: 0px 150px;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+
+.header a:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: #7deddd;
+}
+
+.logo {
+  width: 110px;
+  height: 90px;
+}
+
+.header1 {
+  font-size: 3.4rem;
+  font-weight: 400;
+}
+
+.left-section {
+  padding: 0px 24px;
+  margin-bottom: 66px;
+}
+
+.rewards {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 2.25rem;
+  font-weight: 500;
+}
+
+.rewards svg {
+  margin: 0px 8px;
+}
+
+.user-data {
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  width: fit-content;
+  padding: 4px 4px 4px 10px;
+  border-radius: 8px;
+}
+
+.user-data input {
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  color: whitesmoke;
+  outline: none;
+  margin-right: 20px;
+}
+
+.user-data button {
+  background-color: rgba(253, 239, 120, 1);
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-color: transparent;
+  width: max-content;
+}
+
+.user-data-consent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: min-content;
+}
+
+.consent {
+  margin: 12px 12px 12px 4px;
+  display: flex;
+  column-gap: 8px;
+}
+
+.consent-label {
+  font-size: 10px;
+}

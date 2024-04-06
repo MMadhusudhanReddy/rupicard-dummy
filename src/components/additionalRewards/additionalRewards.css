@@ -1,0 +1,48 @@
+.additional-rewards {
+  background-color: rgba(0, 0, 0, 1);
+  font-size: 40px;
+  line-height: 1.2;
+  padding-bottom: 100px;
+}
+
+.white-color {
+  color: rgba(255, 255, 255, 1);
+}
+
+.additional1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 128px;
+  padding: 24px 16px;
+}
+
+.mobile-img {
+  width: 500px;
+  height: 650px;
+}
+
+.uni-gradient {
+  background: linear-gradient(90deg, #8fffef 25%, #f9f490);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.additional-secondary-font {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: rgba(191, 201, 204, 1);
+}
+
+.reward-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.reward-box-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 128px;
+}

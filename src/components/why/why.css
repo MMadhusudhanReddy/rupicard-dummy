@@ -1,0 +1,49 @@
+.why {
+  background-color: white;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.light-font {
+  color: #9ea7ae;
+}
+
+.reason1 {
+  padding: 100px 200px;
+}
+
+.down-arrow {
+  background: linear-gradient(140.86deg, #65ecd8 11.07%, #fdef78 80.28%);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.down-arrow-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.reason2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 120px;
+  column-gap: 10rem;
+}
+
+.caution {
+  margin-top: 40px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.green-color {
+  color: rgba(90, 214, 196, 1);
+}
