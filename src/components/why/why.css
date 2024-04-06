@@ -38,6 +38,27 @@
   column-gap: 10rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .reason2 {
+    flex-direction: column-reverse;
+    padding: 24px;
+  }
+
+  .reason1 {
+    padding: 100px 24px;
+  }
+}
+
+.width-50 {
+  width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .width-50 {
+    width: 100%;
+  }
+}
+
 .caution {
   margin-top: 40px;
   font-size: 1.125rem;

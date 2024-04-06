@@ -27,7 +27,7 @@ const Why = () => {
       </div>
 
       <div className="reason2">
-        <div style={{ width: "50%" }}>
+        <div className="width-50">
           <span>1% assured cashback on your spends.</span>
           <span className="light-font">
             The more you spend, the more you earn.
@@ -58,14 +58,14 @@ const Why = () => {
             alt="one-percent-cashbook"
           />
         </div>
-        <div style={{ width: "50%" }}>
+        <div className="width-50">
           <span>5x more value than your cashback,</span>
           <span className="light-font"> only at the Uni Store.</span>
         </div>
       </div>
 
       <div className="reason2">
-        <div style={{ width: "50%" }}>
+        <div className="width-50">
           <div>Zero Forex Markup.</div>
           <span className="light-font">
             Go international, without any fees.

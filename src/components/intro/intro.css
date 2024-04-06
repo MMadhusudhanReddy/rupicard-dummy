@@ -113,3 +113,18 @@
 .consent-label {
   font-size: 10px;
 }
+
+@media only screen and (max-width: 900px) {
+  .content {
+    height: unset;
+    flex-direction: column-reverse;
+  }
+
+  .intro-content {
+    margin: 0px 24px;
+  }
+
+  .user-data-consent {
+    display: none;
+  }
+}

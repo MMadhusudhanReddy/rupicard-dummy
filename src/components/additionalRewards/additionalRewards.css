@@ -17,6 +17,14 @@
   padding: 24px 16px;
 }
 
+@media only screen and (max-width: 900px) {
+  .additional1 {
+    flex-direction: column;
+    margin: 0px;
+    padding: 24px;
+  }
+}
+
 .mobile-img {
   width: 500px;
   height: 650px;
@@ -45,4 +53,34 @@
   display: flex;
   justify-content: space-between;
   margin: 0px 128px;
+}
+
+.reward-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .width-50 {
+    width: 100%;
+  }
+
+  .reward-box-section {
+    flex-direction: column;
+    margin: 0px 24px;
+  }
+
+  .reward-box {
+    flex-direction: row;
+    width: unset;
+    justify-content: space-between;
+  }
+
+  .reward-content {
+    width: 50%;
+  }
 }

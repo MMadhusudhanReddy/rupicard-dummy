@@ -10,14 +10,14 @@ import Footer from "../../components/footer/Footer";
 
 const Homepage = () => {
   return (
-    <div style={{ overflow: "scroll" }}>
+    <div className="overflow">
       <Intro />
       <Why />
       <AdditionalRewards />
 
       {/* commited secion */}
       <div className="commited-section white-color">
-        <div style={{ width: "1100px" }}>
+        <div className="width-1100">
           At Uni, we’re committed to{" "}
           <span class="uni-gradient-text">
             {" "}
@@ -26,11 +26,11 @@ const Homepage = () => {
           for millions of Indians.
         </div>
         <div
+          className="width-500"
           style={{
             marginTop: "24px",
             fontSize: "24px",
             lineHeight: "1.75rem",
-            width: "500px",
           }}
         >
           On this mission, we’ve partnered with some of the best in the
@@ -43,7 +43,7 @@ const Homepage = () => {
 
       {/*  */}
       <div className="discontinued-section white-color">
-        <div style={{ width: "48rem" }}>
+        <div className="width-48-rem">
           Please note that to stay compliant with RBI guidelines, we have
           discontinued Pay 1/3rd and Pay 1/2 cards for the time being.
         </div>
@@ -79,11 +79,9 @@ const Homepage = () => {
         </p>
         <div
           style={{
-            // marginTop: "1rem",
             fontSize: "18px",
             marginLeft: "1rem",
             height: "30px",
-            // lineHeight: "6.5rem",
           }}
         >
           <img
