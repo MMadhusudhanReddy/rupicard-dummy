@@ -18,7 +18,7 @@ const Intro = () => {
           <div className="logo">
             <img src={uniLogo} alt="uni-logo" />
           </div>
-          <a href="https://paychek.uni.club/" target="_blank">
+          <a href="https://paychek.uni.club/" target="_blank" rel="noreferrer">
             {" "}
             Uni Paycheck
           </a>
